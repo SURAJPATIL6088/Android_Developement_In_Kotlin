@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Birthday Wish App Google</string>
+    <string name="happy_tag">Happy Birthday, Google</string>
+    <string name="sender_tag">From, </string>
+    <string name="sender_name">Suraj Patil</string>
+</resources>
