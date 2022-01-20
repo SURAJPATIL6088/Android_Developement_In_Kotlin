@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name_text">Suraj Patil</string>
+    <string name="Star_png">Star</string>
+    <string name="Bio">Hi, my name is Suraj.
+    \n\nI love to learn new technologies,
+        \nI am second year student at St. John College Of Engineering and Management.
+         In computer field i have learn C, C++, Kotlin, Java, Python.
+         I have recently started Android Development with Kotlin,
+        \nIn hackerrank i have 5 star in C++
+        \n\n Achivements :
+        \n 1. C++
+        \n 2. C
+        \n 3. Git And GitHub
+        \n 4. Kotlin
+        \n 5. Java
+        \n 6. Phython
+
+        \n\nInterested In :
+        \n a. Competative Programming
+        \n b. Projects Based On Android Developement.
+
+        \n\nHobbies :
+        \n 1. Reading
+        \n 2. Watching Movies
+        \n 3. Coding
+
+
+        \n\nProjects On Android :
+        \n a. Login And Sign UI
+        \n b. About me</string>
+</resources>
