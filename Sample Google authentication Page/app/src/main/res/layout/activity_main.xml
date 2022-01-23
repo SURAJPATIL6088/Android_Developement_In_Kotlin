@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgGoogle"
+        android:layout_width="343dp"
+        android:layout_height="139dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/googlelogo" />
+
+    <TextView
+        android:id="@+id/txtsignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgGoogle"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+        android:text="@string/sign"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/txtsubsignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtsignin"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:text="@string/sign_sub_header" />
+
+    <TextView
+        android:id="@+id/txtforgetpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etemailorpassword"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="34dp"
+        android:textColor="@color/black"
+        android:text="@string/for_pass" />
+
+    <TextView
+        android:id="@+id/txtcreatenewacc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20sp"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="25sp"
+        android:layout_marginEnd="25sp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/new_acc" />
+
+    <Button
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:text="Next"
+        android:textSize="18dp"
+        android:layout_toRightOf="@id/txtcreatenewacc" />
+
+    <EditText
+        android:id="@+id/etemailorpassword"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtsubsignin"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:layout_marginEnd="20dp"
+        android:hint="Enter Username Or Email"
+        android:textColorHint="@color/black"
+        android:inputType="text" />
+
+
+</RelativeLayout>

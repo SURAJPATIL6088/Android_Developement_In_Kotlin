@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@id/Imgironman"
+        android:padding="10dp"
+        android:text="@string/Name"
+        android:textColor="#EE9F00"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Name"
+        android:layout_toRightOf="@id/Imgironman"
+        android:text="@string/Email"
+        android:textColor="#49D37B"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EF822F"
+        android:layout_below="@id/Email"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:layout_toRightOf="@id/Imgironman"
+        android:textStyle="bold"
+        android:text="@string/number"/>
+
+    <ImageView
+        android:id="@+id/Imgironman"
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:padding="15dp"
+        android:src="@drawable/forrelativelayout" />
+
+    <Button
+        android:id="@+id/btnMoreInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="More Information"
+        android:padding="15dp"
+        android:layout_margin="15dp"
+        android:layout_below="@id/Imgironman"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnExitapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#D54A4A"
+        android:padding="10dp"
+        android:text="Exit the App"
+        android:textSize="20dp" />
+
+
+
+</RelativeLayout>

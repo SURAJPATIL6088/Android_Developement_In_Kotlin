@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Google Authentication Sample Page</string>
+    <string name="sign">Sign in</string>
+    <string name="sign_sub_header">with your Google Account</string>
+    <string name="for_pass">Forget Password ? </string>
+    <string name="new_acc">Create Account </string>
+</resources>
