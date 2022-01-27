@@ -29,7 +29,7 @@
             android:layout_toRightOf="@id/img_tony"
             android:layout_marginTop="20dp"
             android:textStyle="bold"
-            android:textSize="25dp"/>
+            android:textSize="25sp"/>
 
         <TextView
             android:id="@+id/txt_tonynumber"
@@ -39,7 +39,7 @@
             android:layout_toRightOf="@id/img_tony"
             android:layout_below="@id/txt_tonyemail"
             android:layout_marginTop="18dp"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
 
         <TextView
             android:id="@+id/txt_tonyemail"
@@ -50,7 +50,7 @@
             android:layout_below="@id/txt_tonyname"
             android:layout_marginTop="18dp"
             android:textStyle="italic"
-            android:textSize="18dp"
+            android:textSize="18sp"
             />
 
 
@@ -75,7 +75,7 @@
             android:layout_toRightOf="@id/img_thor"
             android:layout_marginTop="20dp"
             android:textStyle="bold"
-            android:textSize="25dp"/>
+            android:textSize="25sp"/>
 
         <TextView
             android:id="@+id/txt_thornumber"
@@ -85,7 +85,7 @@
             android:layout_toRightOf="@id/img_thor"
             android:layout_below="@id/txt_thoremail"
             android:layout_marginTop="18dp"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
 
         <TextView
             android:id="@+id/txt_thoremail"
@@ -96,7 +96,7 @@
             android:layout_below="@id/txt_thorname"
             android:layout_marginTop="18dp"
             android:textStyle="italic"
-            android:textSize="18dp"
+            android:textSize="18sp"
             />
 
 
@@ -121,7 +121,7 @@
             android:layout_toRightOf="@id/img_hulk"
             android:layout_marginTop="20dp"
             android:textStyle="bold"
-            android:textSize="25dp"/>
+            android:textSize="25sp"/>
 
         <TextView
             android:id="@+id/txt_hulknumber"
@@ -131,7 +131,7 @@
             android:layout_toRightOf="@id/img_hulk"
             android:layout_below="@id/txt_hulkemail"
             android:layout_marginTop="18dp"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
 
         <TextView
             android:id="@+id/txt_hulkemail"
@@ -142,7 +142,7 @@
             android:layout_below="@id/txt_hulkname"
             android:layout_marginTop="18dp"
             android:textStyle="italic"
-            android:textSize="18dp"
+            android:textSize="18sp"
             />
 
 
@@ -167,7 +167,7 @@
             android:layout_toRightOf="@id/img_widow"
             android:layout_marginTop="20dp"
             android:textStyle="bold"
-            android:textSize="25dp"/>
+            android:textSize="25sp"/>
 
         <TextView
             android:id="@+id/txt_widownumber"
@@ -177,7 +177,7 @@
             android:layout_toRightOf="@id/img_widow"
             android:layout_below="@id/txt_widowemail"
             android:layout_marginTop="18dp"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
 
         <TextView
             android:id="@+id/txt_widowemail"
@@ -188,7 +188,7 @@
             android:layout_below="@id/txt_widowname"
             android:layout_marginTop="18dp"
             android:textStyle="italic"
-            android:textSize="18dp"
+            android:textSize="18sp"
             />
 
 
@@ -213,7 +213,7 @@
         android:layout_toRightOf="@id/img_black_panther"
         android:layout_marginTop="20dp"
         android:textStyle="bold"
-        android:textSize="25dp"/>
+        android:textSize="25sp"/>
 
     <TextView
         android:id="@+id/txt_black_panthernumber"
@@ -223,7 +223,7 @@
         android:layout_toRightOf="@id/img_black_panther"
         android:layout_below="@id/txt_black_pantheremail"
         android:layout_marginTop="18dp"
-        android:textSize="20dp"/>
+        android:textSize="20sp"/>
 
     <TextView
         android:id="@+id/txt_black_pantheremail"
@@ -234,7 +234,7 @@
         android:layout_below="@id/txt_black_panthername"
         android:layout_marginTop="18dp"
         android:textStyle="italic"
-        android:textSize="18dp"
+        android:textSize="18sp"
         />
 
 
@@ -259,7 +259,7 @@
             android:layout_toRightOf="@id/img_captain_america"
             android:layout_marginTop="20dp"
             android:textStyle="bold"
-            android:textSize="25dp"/>
+            android:textSize="25sp"/>
 
         <TextView
             android:id="@+id/txt_captain_americanumber"
@@ -269,7 +269,7 @@
             android:layout_toRightOf="@id/img_captain_america"
             android:layout_below="@id/txt_captain_americaemail"
             android:layout_marginTop="18dp"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
 
         <TextView
             android:id="@+id/txt_captain_americaemail"
@@ -280,9 +280,8 @@
             android:layout_below="@id/txt_captain_americaname"
             android:layout_marginTop="18dp"
             android:textStyle="italic"
-            android:textSize="18dp"
+            android:textSize="18sp"
             />
-
 
     </RelativeLayout>
 </LinearLayout>
