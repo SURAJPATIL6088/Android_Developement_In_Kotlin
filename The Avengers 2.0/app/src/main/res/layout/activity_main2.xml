@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_tony"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="23sp"
+                android:src="@drawable/tony_stark_new" />
+
+            <TextView
+                android:id="@+id/txt_tonyname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tony Stark"
+                android:layout_toRightOf="@id/img_tony"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/txt_tonynumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+91 6088 3941"
+                android:layout_toRightOf="@id/img_tony"
+                android:layout_below="@id/txt_tonyemail"
+                android:layout_marginTop="18dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/txt_tonyemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="stark@Industries Pvt Ltd"
+                android:layout_toRightOf="@id/img_tony"
+                android:layout_below="@id/txt_tonyname"
+                android:layout_marginTop="18dp"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_thor"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="23sp"
+                android:src="@drawable/thor" />
+
+            <TextView
+                android:id="@+id/txt_thorname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thor"
+                android:layout_toRightOf="@id/img_thor"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/txt_thornumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+91 2723 9253"
+                android:layout_toRightOf="@id/img_thor"
+                android:layout_below="@id/txt_thoremail"
+                android:layout_marginTop="18dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/txt_thoremail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="thor@thunder Pvt Ltd"
+                android:layout_toRightOf="@id/img_thor"
+                android:layout_below="@id/txt_thorname"
+                android:layout_marginTop="18dp"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_hulk"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="23sp"
+                android:src="@drawable/hulk" />
+
+            <TextView
+                android:id="@+id/txt_hulkname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dr. Bruce Banner"
+                android:layout_toRightOf="@id/img_hulk"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/txt_hulknumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+91 6000 3939"
+                android:layout_toRightOf="@id/img_hulk"
+                android:layout_below="@id/txt_hulkemail"
+                android:layout_marginTop="18dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/txt_hulkemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="hulk@punch Pvt Ltd"
+                android:layout_toRightOf="@id/img_hulk"
+                android:layout_below="@id/txt_hulkname"
+                android:layout_marginTop="18dp"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_widow"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="23sp"
+                android:src="@drawable/widow" />
+
+            <TextView
+                android:id="@+id/txt_widowname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Black Widow"
+                android:layout_toRightOf="@id/img_widow"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/txt_widownumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+91 6060 4141"
+                android:layout_toRightOf="@id/img_widow"
+                android:layout_below="@id/txt_widowemail"
+                android:layout_marginTop="18dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/txt_widowemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="widow@Agent Pvt Ltd"
+                android:layout_toRightOf="@id/img_widow"
+                android:layout_below="@id/txt_widowname"
+                android:layout_marginTop="18dp"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_black_panther"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="23sp"
+                android:src="@drawable/black_panther" />
+
+            <TextView
+                android:id="@+id/txt_black_panthername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/t_challa"
+                android:layout_toRightOf="@id/img_black_panther"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/txt_black_panthernumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+91 8888 3000"
+                android:layout_toRightOf="@id/img_black_panther"
+                android:layout_below="@id/txt_black_pantheremail"
+                android:layout_marginTop="18dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/txt_black_pantheremail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="black@vibranium Pvt Ltd"
+                android:layout_toRightOf="@id/img_black_panther"
+                android:layout_below="@id/txt_black_panthername"
+                android:layout_marginTop="18dp"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_captain_america"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="23sp"
+                android:src="@drawable/captain_america" />
+
+            <TextView
+                android:id="@+id/txt_captain_americaname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Captain America"
+                android:layout_toRightOf="@id/img_captain_america"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/txt_captain_americanumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+91 1123 3453"
+                android:layout_toRightOf="@id/img_captain_america"
+                android:layout_below="@id/txt_captain_americaemail"
+                android:layout_marginTop="18dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/txt_captain_americaemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="captain@hydra Pvt Ltd"
+                android:layout_toRightOf="@id/img_captain_america"
+                android:layout_below="@id/txt_captain_americaname"
+                android:layout_marginTop="18dp"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

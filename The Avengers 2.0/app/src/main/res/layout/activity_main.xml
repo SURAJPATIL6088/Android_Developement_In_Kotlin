@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="250dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/avengers_logo">
+    </ImageView>
+
+    <EditText
+        android:id="@+id/et_mobile_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:padding="9dp"
+        android:hint="@string/mobile_number"
+        android:inputType="phone"
+        android:textColorHint="@color/black"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:layout_below="@id/img_logo">
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="9dp"
+        android:textColorHint="@color/black"
+        android:hint="@string/Pass"
+        android:layout_below="@id/et_mobile_number"
+        tools:ignore="TextFields">
+    </EditText>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:padding="9dp"
+        android:text="@string/btn_login"
+        android:textSize="19sp"></Button>
+
+    <TextView
+
+        android:id="@+id/txt_Forget_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_Forget_pass"
+        android:layout_below="@id/btnlogin"
+        android:layout_margin="13dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:padding="6dp"
+        android:gravity="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt_register_yourself"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_New_registration"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:padding="6dp">
+
+    </TextView>
+
+</RelativeLayout>

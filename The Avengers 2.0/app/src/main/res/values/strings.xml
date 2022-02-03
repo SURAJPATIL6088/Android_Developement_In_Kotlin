@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">The Avengers 2.0</string>
+    <string name="t_challa">T Challa</string>
+    <string name="txt_Forget_pass">Forget Password?</string>
+    <string name="txt_New_registration">New Registration</string>
+    <string name="mobile_number">Enter Mobile Number</string>
+    <string name="Pass">Enter Password</string>
+    <string name="btn_login">Log in</string>
+</resources>
