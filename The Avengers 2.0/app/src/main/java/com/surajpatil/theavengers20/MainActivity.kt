@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     lateinit var btn_login:Button
@@ -15,6 +16,8 @@ class MainActivity : AppCompatActivity() {
         btn_login = findViewById(R.id.btnlogin)
 
     btn_login.setOnClickListener {
+        Toast.makeText(this@MainActivity, "Sample Example of the Toast ! ", Toast.LENGTH_LONG).show()
+
         val intent = Intent(this@MainActivity, MainActivity2::class.java)
         startActivity(intent)
     }
