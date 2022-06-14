@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Developement With Kotlin/AuthenticationPageinKotlin/app/src/main/res/drawable-anydpi/ic_action_lock.xml" value="0.1465" />
+        <entry key="..\:/Android Developement With Kotlin/AuthenticationPageinKotlin/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1465" />
+        <entry key="..\:/Android Developement With Kotlin/AuthenticationPageinKotlin/app/src/main/res/drawable/button_back.xml" value="0.1465" />
+        <entry key="..\:/Android Developement With Kotlin/AuthenticationPageinKotlin/app/src/main/res/drawable/editformat.xml" value="0.1465" />
+        <entry key="..\:/Android Developement With Kotlin/AuthenticationPageinKotlin/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1465" />
+        <entry key="..\:/Android Developement With Kotlin/AuthenticationPageinKotlin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1465" />
+        <entry key="..\:/Android Developement With Kotlin/AuthenticationPageinKotlin/app/src/main/res/drawable/ic_launcher_dashboard.xml" value="0.124" />
+        <entry key="..\:/Android Developement With Kotlin/AuthenticationPageinKotlin/app/src/main/res/layout/activity_forget_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Developement With Kotlin/AuthenticationPageinKotlin/app/src/main/res/layout/activity_login_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Developement With Kotlin/AuthenticationPageinKotlin/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Developement With Kotlin/AuthenticationPageinKotlin/app/src/main/res/layout/activity_new_registration.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Developement With Kotlin/AuthenticationPageinKotlin/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Developement With Kotlin/AuthenticationPageinKotlin/app/src/main/res/layout/fragment_about.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Developement With Kotlin/AuthenticationPageinKotlin/app/src/main/res/layout/fragment_dashboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Developement With Kotlin/AuthenticationPageinKotlin/app/src/main/res/layout/fragment_profile.xml" value="0.12360688956433637" />
+        <entry key="..\:/Android Developement With Kotlin/AuthenticationPageinKotlin/app/src/main/res/layout/fragment_progile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Developement With Kotlin/AuthenticationPageinKotlin/app/src/main/res/layout/header_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Developement With Kotlin/AuthenticationPageinKotlin/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.124" />
+        <entry key="..\:/Android Developement With Kotlin/AuthenticationPageinKotlin/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.124" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

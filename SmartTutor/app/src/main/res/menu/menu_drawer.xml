@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/ic_baseline_dashboard_24"
+            android:title="@string/dashboard">
+
+        </item>
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="@string/profile">
+
+        </item>
+
+        <item
+            android:id="@+id/favourites"
+            android:icon="@drawable/ic_baseline_favorite_24"
+            android:title="@string/favourites">
+
+        </item>
+
+        <item
+            android:id="@+id/nearbyme"
+            android:icon="@drawable/ic_baseline_location_on_24"
+            android:title="@string/nearbyme">
+
+        </item>
+
+        <item
+            android:id="@+id/aboutapp"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/aboutapp">
+
+        </item>
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/settings">
+
+        </item>
+    </group>
+
+
+</menu>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Data Binding Update Profile</string>
+    <string name="enter_your_email_address">Enter Your Email Address</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="store_information">STORE INFORMATION!</string>
+    <string name="enter_your_mobile_number">Enter Your Mobile Number</string>
+    <string name="note">Note : After Click on the Update Button we can see the Updated Information.</string>
+    <string name="update">Update</string>
+</resources>

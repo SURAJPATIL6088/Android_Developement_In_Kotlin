@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgdesign"
+    tools:context=".authenticate.ForgetPassordActivity">
+
+    <ImageView
+        android:id="@+id/img_Logo"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="80dp"
+        android:src="@drawable/educationlogo"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="TODO" />
+
+    <EditText
+        android:id="@+id/et_MobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_Logo"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/editformat"
+        android:hint="@string/mobile_number"
+        android:inputType="number"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="#37474F" />
+
+    <Button
+        android:id="@+id/btn_back_login"
+        android:layout_width="201dp"
+        android:layout_height="52dp"
+        android:text="@string/sign_in"
+        android:layout_below="@id/et_MobileNumber"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/ic_action_dashboard"
+            android:title="@string/dashboard" />
+
+        <item
+            android:id="@+id/favourites"
+            android:icon="@drawable/ic_action_fav"
+            android:title="@string/favourites" />
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_action_person"
+            android:title="@string/profile" />
+
+        <item
+            android:id="@+id/aboutapp"
+            android:icon="@drawable/ic_action_info"
+            android:title="@string/aboutapp" />
+
+        <item
+            android:id="@+id/nearme"
+            android:icon="@drawable/ic_baseline_location"
+            android:title="@string/nearbyme" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_action_settings"
+            android:title="@string/settings" />
+
+    </group>
+</menu>

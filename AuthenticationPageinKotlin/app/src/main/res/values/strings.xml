@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Authentication Page in Kotlin</string>
+    <string name="app_name1">Smart Tutor </string>
+    <string name="mobile_number">Mobile Number(10 digits)</string>
+    <string name="password_login">Password</string>
+    <string name="login_txt">Login</string>
+    <string name="forget_password">Forgot Password</string>
+    <string name="new_registration">If you do not have an account, Register</string>
+    <string name="password_registration">Password</string>
+    <string name="password_confirm_registration">Confirm Password</string>
+    <string name="full_name_registration">Full Name</string>
+    <string name="Username_registration">Username</string>
+    <string name="Email_registration">Email</string>
+    <string name="phone_registration">Phone Number</string>
+
+    <string name="dashboard">Dashboard</string>
+    <string name="favourites">Favourites</string>
+    <string name="profile">Profile</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="aboutapp">About App</string>
+    <string name="open_drawer">open</string>
+    <string name="close_drawer">close</string>
+</resources>

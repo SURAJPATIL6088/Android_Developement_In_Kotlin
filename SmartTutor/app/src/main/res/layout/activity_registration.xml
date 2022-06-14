@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    tools:context=".authenticate.RegistrationActivity">
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_back_arrow" />
+
+    <TextView
+        android:id="@+id/txt_new_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_account"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/teal_700"
+        android:layout_marginTop="45dp"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_MobileNumber_registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_new_title"
+        android:layout_marginTop="31dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/editformat"
+        android:hint="@string/full_name_registration"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="16dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_Username_registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_MobileNumber_registration"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/editformat"
+        android:hint="@string/Username_registration"
+        android:maxLines="1"
+        android:padding="16dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_email_registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_Username_registration"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/editformat"
+        android:hint="@string/Email_registration"
+        android:maxLines="1"
+        android:padding="16dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_phone_no_registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_email_registration"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/editformat"
+        android:hint="@string/phone_registration"
+        android:maxLines="1"
+        android:padding="16dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_password_registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_phone_no_registration"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/editformat"
+        android:hint="@string/password_login"
+        android:inputType="number"
+        android:maxLines="1"
+        android:padding="16dp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_next_registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_password_registration"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/button_back"
+        android:text="@string/next"
+        android:textColor="@color/black"
+        android:textSize="23sp" />
+
+</RelativeLayout>
+

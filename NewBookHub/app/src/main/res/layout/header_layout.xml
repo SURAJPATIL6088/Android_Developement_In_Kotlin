@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:orientation="vertical"
+    android:background="@color/teal_700">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/educationlogo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/smart_tutor_application"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

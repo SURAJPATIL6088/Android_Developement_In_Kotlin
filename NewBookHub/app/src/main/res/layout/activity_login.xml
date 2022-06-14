@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgdesign"
+    android:layout_height="match_parent"
+    tools:context=".authenticate.LoginActivity">
+
+    <ImageView
+        android:id="@+id/img_Logo"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="3dp"
+        android:src="@drawable/educationlogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck" />
+
+    <EditText
+        android:id="@+id/et_MobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_Logo"
+        android:layout_margin="17dp"
+        android:background="@drawable/editformat"
+        android:hint="@string/mobile_number"
+        android:inputType="number"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="#37474F"
+        app:layout_constraintBottom_toTopOf="@+id/et_LoginPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/et_LoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_MobileNumber"
+        android:layout_margin="17dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/editformat"
+        android:hint="@string/password_login"
+        android:inputType="number"
+        android:maxLength="4"
+        android:maxLines="1"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:password="true"
+        android:textColorHint="#37474F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_Logo"
+        tools:ignore="TextFields" />
+
+    <Button
+        android:id="@+id/btn_LoginPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_LoginPassword"
+        android:layout_margin="25dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_back"
+        android:padding="9dp"
+        android:text="@string/login_txt"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_LoginPassword" />
+
+    <TextView
+        android:id="@+id/txt_forget_passwordPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_LoginPage"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/forget_password"
+        android:textColor="#050505"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/btn_LoginPage"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/txt_new_registrationPage"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_below="@id/txt_forget_passwordPage"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/new_registration"
+        android:textAlignment="center"
+        android:textColor="#161819"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/txt_forget_passwordPage"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
