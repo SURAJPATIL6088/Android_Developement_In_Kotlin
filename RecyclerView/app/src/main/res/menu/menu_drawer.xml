@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/dashboard"
+            android:icon="@drawable/ic_action_dash"
+            android:title="@string/dashboard" />
+
+        <item
+            android:id="@+id/favourites"
+            android:icon="@drawable/ic_action_fav"
+            android:title="@string/favourites" />
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_action_pro"
+            android:title="@string/profile" />
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_action_info"
+            android:title="@string/about" />
+
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_action_sett"
+            android:title="@string/settings" />
+    </group>
+</menu>
